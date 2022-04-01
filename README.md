@@ -1,5 +1,18 @@
-# AI-Resilient-Swarming
-AI Mini Project for Resilient Swarming @ Johns Hopkins Univ
-- Instructor: Musad Haque, PhD
-- Boids rule is a widely-used technique for simulating collective motion. Based on spatial proximity, agents will either repulse, attract, or align their headings with other agents. The first objective is to complete a repulsion, orientation, attraction rule to mimic swarming.
-- Do not copy. All rights preserved.
+# MATLAB Version 
+
+Currently, we know that the simulator works with MATLAB 2014b and higher.  The backwards compatibility issues are mostly due to changes in the way MATLAB handles figures in newer releases.
+
+# Required Toolboxes 
+
+We make heavy use of MATLAB's optimization toolbox function 'quadprog.'  Though this toolbox isn't necessarily required, all of our barrier function algorithms utilize this function.
+
+# robotarium-matlab-simulator
+MATLAB simulator for the Robotarium!  The purpose of the Robotarium simulator is to ensure that algorithms perform reasonably well before deployment onto the Robotarium.  Note that scripts created for the simulator can be directly deployed onto the Robotarium.  To ensure minimum modification after deployment, the simulator has been created to closely approximate the actual behavior of the Robotarium's agents. 
+
+# Usage 
+
+First, take a look at the "examples" folder for a few, simple examples.  Note that, to run these examples, you must first run the "init.m" script to add the requisite directories.  
+
+# Documentation 
+
+For example mathematical documentation, FAQs, and more, visit http://www.robotarium.org.
